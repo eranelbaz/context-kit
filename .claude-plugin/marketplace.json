@@ -1,0 +1,22 @@
+{
+  "name": "eranelbaz-context-kit",
+  "owner": {
+    "name": "eranelbaz"
+  },
+  "metadata": {
+    "description": "context-kit plugin by eranelbaz",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "context-kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eranelbaz/context-kit.git"
+      },
+      "description": "Save and load named conversation context snapshots across Claude Code sessions. Never lose track of where you left off.",
+      "version": "1.0.0",
+      "strict": true
+    }
+  ]
+}
